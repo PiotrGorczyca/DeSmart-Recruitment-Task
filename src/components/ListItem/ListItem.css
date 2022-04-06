@@ -1,0 +1,39 @@
+
+.list-item-wrapper {
+    height: 120px;
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 5px 19px -8px rgba(66, 68, 90, 0.7);
+    justify-content: flex-start;
+    transition: 0.3s;
+}
+
+.list-item-wrapper:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.list-item-image {
+    flex: 0;
+    /* height: 120px;
+    max-width: 240px; */
+}
+
+
+.list-item-image-content {
+    height: 100%;
+    max-width: 240px;
+}
+
+.list-item-title {
+    flex: 1;
+    padding: 0 1rem;
+}
+
+.active {
+    transform: scale(1.03);
+    box-shadow: 0px 4px 12px 0px rgba(0, 25, 255, 0.55)!important;
+}
