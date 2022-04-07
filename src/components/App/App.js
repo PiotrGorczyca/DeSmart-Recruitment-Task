@@ -10,7 +10,7 @@ const App = () => {
   const cache = useRef(
     new CellMeasurerCache({
       fixedWidth: true,
-      defaultHeight: 120,
+      defaultHeight: 240,
     })
   );
 
@@ -23,7 +23,7 @@ const App = () => {
         <img src={logo} className="app-logo" alt="logo" />
         <p>Please select multiple items:</p>
       </header>
-      <div style={{ width: "100%", height: "88vh" }}>
+      <div style={{ width: "100%", height: "80vh" }}>
         <AutoSizer>
           {({ width, height }) => (
             <List
